@@ -1,15 +1,3 @@
-# NOTE: do not add IDE, editor, or OS-specific patterns here.
-# Individuals should add these to their global gitignore.
-#
-# Example:
-# git config --global core.excludesfile ~/.gitignore
-#
-# cat ~/.gitignore
-#   .idea
-#   .vscode
-#   *~
-
-# Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
@@ -17,36 +5,6 @@
 *.key
 *.dylib
 *.bak
-bin
-artifacts
-artifacts-admin
-_output/
-# Test binary, built with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-CLI-ginkgo-tests-summary.txt
-CLI-junit-report.xml
-coverage.txt
-make_test.output
-test_suite_output.json
-test/e2e/testresults/
-test/integration-test/testresults/
-test/scripts/generate-test-report/integration-test-*
-test/scripts/generate-test-report/e2e-test-*
-unit-test-report.txt
-
-go.work.sum
-
 */.DS_Store
 .DS_Store
 .idea
-
-pinniped_binary
-
-*_fake.go
-apis/config/crd/bases/_.yaml
-test/framework/zz_generated.deepcopy.go
-test/scripts/generate-test-report/e2e-test-command-coverage.yaml
-test/scripts/generate-test-report/e2e-test-report.json
